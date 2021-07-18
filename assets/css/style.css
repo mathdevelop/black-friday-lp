@@ -1,0 +1,191 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#particles {
+  height: 100vh;
+  background-color: #000;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.header .container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__title,
+.header__text {
+  margin-bottom: 50px;
+}
+
+.header__title h1 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+
+.header__text {
+  padding-left: 30px;
+  border-left: 1px solid #ed1c24;
+}
+
+.header__text span {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #a7a7a7;
+}
+
+.header__button {
+  width: 120px;
+  height: 48px;
+  padding: 0;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header__button--course {
+  border: 1px solid #ed1c24;
+  background-color: transparent;
+  color: #ed1c24;
+}
+
+.header__button--buy {
+  margin-left: 15px;
+  border: none;
+  background-color: #ed1c24;
+  color: #fff;
+}
+
+.course {
+  margin-bottom: 50px;
+}
+
+.course__content {
+  padding: 50px 0;
+  background-color: #152742;
+}
+
+.course__title,
+.course__text {
+  margin-bottom: 50px;
+}
+
+.course__title h2 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+
+.course__text {
+  padding-left: 30px;
+  border-left: 1px solid #ed1c24;
+}
+
+.course__text span {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #a7a7a7;
+}
+
+.course__button {
+  width: 120px;
+  height: 48px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #ed1c24;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+}
+
+.countdown {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  background-color: #ed1c24;
+  text-align: center;
+}
+
+.countdown__shape {
+  height: 150px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik01MDQuODU0LDgwLjA2NmM3LjgxMiwwLDE0Ljg5MywwLjMxOCwyMS40MSwwLjg3OSBjLTI1LjkyNSwyMi40NzUtNTYuMDkzLDQwLjg1Mi0xMDIuOTQ2LDQwLjg1MmMtMjAuNzc5LDAtMzcuOTk2LTIuMzQ5LTUyLjg5OC02LjA3QzQxMy41MTcsMTA3LjI5NSw0MzQuMDU2LDgwLjA2Niw1MDQuODU0LDgwLjA2NnogTTc3NS45MzgsNTEuOTQ3YzE5LjE0NSwxOC41OTYsMzkuMDk3LDM1LjA1MSw3Ny45NTYsMzUuMDUxYzQ2LjkwNywwLDYyLjI5OS0xNC45ODYsODAuOTEyLTI0Ljk4IGMtMjEuMzU3LTE1Ljc4My00Ni44MDQtMjguMzQ4LTg1LjQ4OS0yOC4zNDhDODE2LjgyOSwzMy42NzEsNzk0LjIzMyw0MS40MTEsNzc1LjkzOCw1MS45NDd6IiBmaWxsLW9wYWNpdHk9Ii4zIi8+PHBhdGggZD0iTTEyMDAuMTEyLDQ2LjI5MmMzOS44MDQsMCw1OS45ODYsMjIuNDc5LDc5Ljg4OCwzOS42OXYxNi44MDUgYy0xOS45MDMtMTAuODM1LTQwLjA4NC0yMS43NzctNzkuODg4LTIxLjc3N2MtNzIuMDE0LDAtNzguNzE1LDQzLjU1OS0xNDcuOTY0LDQzLjU1OWMtNTYuODQsMC04MS4yNDctMzUuODc2LTExNy4zNDItNjIuNTUyIGM5LjMwOS00Ljk5OCwxOS40MjMtOC43NDksMzQuNjktOC43NDljNTUuODQ2LDAsNjEuOTksMzkuNjE3LDExNS42MDIsMzkuNjE3QzExNDMuMTc3LDkyLjg4NywxMTQyLjYxOCw0Ni4yOTIsMTIwMC4xMTIsNDYuMjkyeiBNODAuMDExLDExNS40ODhjLTQwLjAwNiwwLTYwLjAwOC0xMi4yMDYtODAuMDExLTI5LjUwNnYxNi44MDZjMjAuMDAzLDEwLjg5MSw0MC4wMDUsMjEuNzgyLDgwLjAxMSwyMS43ODIgYzgwLjAwNCwwLDc4LjU5Ny0zMC40MDcsMTM3LjY2OS0zMC40MDdjNTUuOTcxLDAsNjIuNTI2LDI0LjAyNiwxMjYuMzM3LDI0LjAyNmM5Ljg1OCwwLDE4LjUwOS0wLjkxNiwyNi40MDQtMi40NjEgYy01Ny4xODYtMTQuMjc4LTgwLjE3Ny00OC44MDgtMTM4LjY2LTQ4LjgwOEMxNTQuNjk4LDY2LjkxOSwxMzEuODAxLDExNS40ODgsODAuMDExLDExNS40ODh6IE01MjYuMjY1LDgwLjk0NSBjNTYuODQ4LDQuOTAyLDcwLjA1NiwyOC43MjYsMTM3LjE5MywyOC43MjZjNTQuMDAxLDAsNzMuNDMtMzUuMjM3LDExMi40OC01Ny43MjRDNzUxLjA2LDI3Ljc4Miw3MjcuNTQ4LDAsNjY1LjY5MSwwIEM1OTcuMzgxLDAsNTY3LjA4Niw0NS41NTUsNTI2LjI2NSw4MC45NDV6IiBmaWxsLW9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTAsMHY4NS45ODJjMjAuMDAzLDE3LjMsNDAuMDA1LDI5LjUwNiw4MC4wMTEsMjkuNTA2YzUxLjc5MSwwLDc0LjY4OC00OC41NjksMTUxLjc1MS00OC41NjkgYzU4LjQ4MiwwLDgxLjQ3MywzNC41MzEsMTM4LjY2LDQ4LjgwOGM0My4wOTYtOC40MzIsNjMuNjM0LTM1LjY2MiwxMzQuNDMzLTM1LjY2MmM3LjgxMiwwLDE0Ljg5MywwLjMxOCwyMS40MSwwLjg3OSBDNTY3LjA4Niw0NS41NTUsNTk3LjM4MSwwLDY2NS42OTEsMGM2MS44NTYsMCw4NS4zNjksMjcuNzgyLDExMC4yNDYsNTEuOTQ3YzE4LjI5NS0xMC41MzYsNDAuODkxLTE4LjI3Niw3My4zNzgtMTguMjc2IGMzOC42ODUsMCw2NC4xMzIsMTIuNTY0LDg1LjQ4OSwyOC4zNDhjOS4zMDktNC45OTgsMTkuNDIzLTguNzQ5LDM0LjY5LTguNzQ5YzU1Ljg0NiwwLDYxLjk5LDM5LjYxNywxMTUuNjAyLDM5LjYxNyBjNTguMDgsMCw1Ny41MjEtNDYuNTk1LDExNS4wMTUtNDYuNTk1YzM5LjgwNCwwLDU5Ljk4NiwyMi40NzksNzkuODg4LDM5LjY5VjBIMHoiLz48L2c+PC9zdmc+);
+}
+
+.countdown__title {
+  margin-bottom: 10px;
+}
+
+.countdown__title span {
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.countdown__content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.countdown__column {
+  padding: 0 10px;
+}
+
+.countdown__column span {
+  display: block;
+  color: #fff;
+}
+
+.countdown__amount {
+  font-size: 50px;
+}
+
+.countdown__period {
+  font-size: 14px;
+}
+
+.countdown__button {
+  width: 120px;
+  height: 48px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+}
+
+.buy {
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .header__title h1,
+  .course__title h2 {
+    font-size: 68px;
+  }
+
+  .header__button,
+  .course__button {
+    width: 150px;
+  }
+}
